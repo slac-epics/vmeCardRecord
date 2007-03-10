@@ -57,7 +57,7 @@
 #define GEN_SIZE_OFFSET
 #include        <vmeCardRecord.h>
 #undef GEN_SIZE_OFFSET
-
+#include "epicsExport.h"
 
 #ifndef OK
 #define OK 0
@@ -128,6 +128,8 @@ rset vmeCardRSET={
 #ifdef DEBUG
 int dbg=1;
 #endif
+
+epicsExportAddress(rset,vmeCardRSET); 
 
 
 /*====================================================
