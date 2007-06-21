@@ -6,5 +6,8 @@
 #MSI=<path>extensions/bin/$(EPICS_HOST_ARCH)/msi
 
 # EPICS_BASE usually appears last so other apps can override stuff:
-include $(TOP)/../../configure/RELEASE-base
+EPICS_BASE_RELEASE=/afs/slac/g/lcls/build/epics/base/base-R1-0-0
+EPICS_BASE=$(EPICS_BASE_RELEASE)
+
+
 
