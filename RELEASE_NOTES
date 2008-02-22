@@ -1,4 +1,4 @@
-#==============================================================
+==============================================================
 #
 #  Name: RELEASE_NOTES
 #
@@ -9,6 +9,8 @@
 #  Rev:  dd-mmm-yyyy, Reviewer's Name    (USERNAME)
 #--------------------------------------------------------------
 #  Mod:
+#        21-Feb-2008, K. Luchini         (LUCHINI):
+#          release vmeCardRecord-R1-0-3-1
 #        08-Oct-2007, K. Luchini         (LUCHINI):
 #          release vmeCardRecord-R1-0-3
 #        08-Oct-2007, K. Luchini         (LUCHINI):
@@ -20,6 +22,9 @@
 #
 #==============================================================
 #
+vmeCardRecord-R1-0-3-1: Replace CONFIG_APP with CONFIG_SITE
+                        Add RELEASE_SITE
+
 vmeCardRecord-R1-0-3: Build with base-R2-14-9-lcls1 (RTEMS 4.7.1)
 
 vmeCardRecord-R1-0-2: Build with base-R3-14-8-2-lcls2 (RTEMS 4.7.1)
