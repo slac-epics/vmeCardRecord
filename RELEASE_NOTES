@@ -9,6 +9,8 @@
 #  Rev:  dd-mmm-yyyy, Reviewer's Name    (USERNAME)
 #--------------------------------------------------------------
 #  Mod:
+#        23-Feb-2010, K. Luchini         (LUCHINI):
+#          release vsamCardRecord-R2-1-0
 #        27-Apr-2009, K. Luchini         (LUCHINI):
 #          release vsamCardRecord-R2-0-0
 #        21-Feb-2008, K. Luchini         (LUCHINI):
@@ -24,6 +26,9 @@
 #
 #==============================================================
 #
+vsamCardRecord-R2-0-0: Build with epics-R3-14-8-2-lcls5
+                       Build with rtems-4.9.3
+
 vsamCardRecord-R2-0-0: Build with epics-R3-14-8-2-lcls3
                        Build with rtems-4.9.1
 
