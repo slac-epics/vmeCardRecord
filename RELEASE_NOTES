@@ -28,6 +28,8 @@
 #
 #==============================================================
 #
+R2.3.0: First version with the Git Workflow.
+
 vmeCardRecord-R2-2-1: Modify RELEASE file to build with style of eco
 
 vmeCardRecord-R2-2-0: Build with epics-R3-14-8-2-lcls6
