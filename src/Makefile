@@ -20,6 +20,9 @@ include $(TOP)/configure/CONFIG
 #----------------------------------------
 #  ADD MACRO DEFINITIONS AFTER THIS LINE
 #
+
+#USR_CFLAGS += -DUSE_TYPED_RSET -DUSE_TYPED_DSET -DUSE_TYPED_DRVET
+
 DBDINC += vmeCardRecord
 DBD    += vmeCardRecord.dbd
 
@@ -27,12 +30,9 @@ HTMLS_DIR = .
 HTMLS  +=  Recordref-vmeCard.html
 
 LIBRARY_IOC_RTEMS   = vmeCardRecord
-LIBRARY_IOC_vxWorks = vmeCardRecord
 
 # Add locally compiled object code
 vmeCardRecord_SRCS += vmeCardRecord.c
-
-sSubRecord_LIBS = $(EPICS_BASE_IOC_LIBS)
 
 include $(TOP)/configure/RULES
 #----------------------------------------

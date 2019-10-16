@@ -32,10 +32,10 @@
 =============================================================
 */
 #include        "epicsVersion.h"
-#if EPICS_VERSION >= 3 && EPICS_REVISION >= 14
+#if ((EPICS_VERSION==3 && EPICS_REVISION>=14) || EPICS_VERSION>3)
 #include        "epicsTime.h"
 #else
-#include        <vxWorks.h>
+#include        <vxWorks.h> 
 #include        <types.h>
 #include        <vme.h>
 #include        <stdioLib.h>
