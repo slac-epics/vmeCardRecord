@@ -100,7 +100,7 @@ static long get_control_double();
 
 static int sizeofTypes[] = {0,1,1,2,2,4,4,4,8,2};
 
-#if EPICS_VERSION >= 3 && EPICS_REVISION >= 14 && EPICS_MODIFICATION > 4
+#if (EPICS_VERSION == 3 && EPICS_REVISION >= 14 && EPICS_MODIFICATION > 4) || EPICS_VERSION > 3
 #include "epicsExport.h"
 #else
 struct
